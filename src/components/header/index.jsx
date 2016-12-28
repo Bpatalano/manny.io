@@ -13,11 +13,27 @@ export default () => (
     </IndexLink>
 
     <Link
-      to="/features"
+      to="/applications"
       className={styles.link}
       activeClassName={styles.link_active}
     >
-      Libraries/Tools
+      Applications
+    </Link>
+
+    <Link
+      to="/bugDuty"
+      className={styles.link}
+      activeClassName={styles.link_active}
+    >
+      Bug Duty
+    </Link>
+
+    <Link
+      to="/chores"
+      className={styles.link}
+      activeClassName={styles.link_active}
+    >
+      Chores
     </Link>
   </div>
 );
